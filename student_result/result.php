@@ -5,7 +5,7 @@ function calculateResult($subject1, $subject2, $subject3, $subject4, $subject5) 
         $subject3 < 0 || $subject3 > 100 || 
         $subject4 < 0 || $subject4 > 100 || 
         $subject5 < 0 || $subject5 > 100) {
-        echo "Mark range is invalid.";
+        echo "Invalid Marks";
         return;
     }
 
